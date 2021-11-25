@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "name": "It's Now or Never",
+    "artist": "Elvis Presley",
+    "release": "July 5, 1960",
+    "artwork": ""
+  },
+  {
+    "id": 1,
+    "name": "Wooden Heart",
+    "artist": "Elvis Presley",
+    "release": "1961",
+    "artwork": ""
+  },
+  {
+    "id": 2,
+    "name": "I Remember You",
+    "artist": "Franck Ifield",
+    "release": "May 27, 1962",
+    "artwork": ""
+  },
+  {
+    "id": 3,
+    "name": "She Loves You",
+    "artist": "The Beatles",
+    "release": "August 23, 1963",
+    "artwork": ""
+  },
+  {
+    "id": 4,
+    "name": "Can't Buy Me Love",
+    "artist": "The Beatles",
+    "release": "March 20, 1964",
+    "artwork": ""
+  },
+  {
+    "id": 5,
+    "name": "Tears",
+    "artist": "Ken Dodd",
+    "release": "August, 1965",
+    "artwork": ""
+  },
+  {
+    "id": 6,
+    "name": "Green, Green Grass of Home",
+    "artist": "Tom Jones",
+    "release": "November, 1966",
+    "artwork": ""
+  },
+  {
+    "id": 7,
+    "name": "Release Me",
+    "artist": "Engelbert Humperdinck",
+    "release": "April, 1967",
+    "artwork": ""
+  },
+  {
+    "id": 8,
+    "name": "Hey Jude",
+    "artist": "The Beatles",
+    "release": "August 26, 1968",
+    "artwork": ""
+  },
+  {
+    "id": 9,
+    "name": "Sugar, Sugar",
+    "artist": "The Archies",
+    "release": "May 24, 1969",
+    "artwork": ""
+  }
+]
