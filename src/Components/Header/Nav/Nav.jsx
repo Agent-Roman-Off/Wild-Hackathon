@@ -1,4 +1,5 @@
 import './Nav.scss';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
@@ -16,29 +17,34 @@ const Nav = () => {
       <nav className="navigation__nav">
         <ul className="navigation__list">
           <li className="navigation__item">
-            <a href="/" className="navigation__link">
-              <span>01</span> Natous
-            </a>
+            <Link to="/decade60s" className="navigation__link">
+              60&#39;s
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="/" className="navigation__link">
-              <span>02</span> Yours Benfits
-            </a>
+            <Link to="/decade70s" className="navigation__link">
+              70&#39;s
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="/" className="navigation__link">
-              <span>03</span> Popular Tours
-            </a>
+            <Link to="/decade80s" className="navigation__link">
+              80&#39;s
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="/" className="navigation__link">
-              <span>04</span> Stories
-            </a>
+            <Link to="/decade90s" className="navigation__link">
+              90&#39;s
+            </Link>
           </li>
           <li className="navigation__item">
-            <a href="/" className="navigation__link">
-              <span>05</span> Book now
-            </a>
+            <Link to="/decade00s" className="navigation__link">
+              00&#39;s
+            </Link>
+          </li>
+          <li className="navigation__item">
+            <Link to="/decade10s" className="navigation__link">
+              10&#39;s
+            </Link>
           </li>
         </ul>
       </nav>
