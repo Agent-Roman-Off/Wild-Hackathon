@@ -2,53 +2,56 @@ $color-grey-dark-2: #999;
 $color-white: #fff;
 
 svg {
-	height: 40%;
-	width: 40%;
-	display: block;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: 20%;
+  width: 15%;
+  display: block;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 i {
-	color: $color-white;
+  color: $color-white;
 }
 i:hover {
-	color: $color-grey-dark-2;
+  color: $color-grey-dark-2;
 }
 
-.notes, .sparks {
-	opacity: 0;
+.notes,
+.sparks {
+  opacity: 0;
 }
 
 #shadow {
-	animation: shadow 4s infinite linear;
-	transform-origin: 50% 50%;
+  animation: shadow 4s infinite linear;
+  transform-origin: 50% 50%;
 }
 
 #guitar_2_ {
-	animation: hover 4s infinite linear;
-	&:hover {
-		cursor: pointer;
-	}
+  animation: hover 4s infinite linear;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 @keyframes hover {
-	from, to {
-		transition-timing-function: ease-in-out;
-		transform: translate3d(0,0,0);
-	}
-	50% {
-		transition-timing-function: ease-in-out;
-		transform: translate3d(0,1.5%,0);
-	}
+  from,
+  to {
+    transition-timing-function: ease-in-out;
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transition-timing-function: ease-in-out;
+    transform: translate3d(0, 1.5%, 0);
+  }
 }
 
 @keyframes shadow {
-	from, to {
-		transition-timing-function: ease-in-out;
-		transform: scale(0.95,1);
-	}
-	50% {
-		transition-timing-function: ease-in-out;
-		transform: scale(1.05,1);
-	}
+  from,
+  to {
+    transition-timing-function: ease-in-out;
+    transform: scale(0.95, 1);
+  }
+  50% {
+    transition-timing-function: ease-in-out;
+    transform: scale(1.05, 1);
+  }
 }
