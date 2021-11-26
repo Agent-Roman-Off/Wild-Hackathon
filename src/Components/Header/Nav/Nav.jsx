@@ -18,32 +18,32 @@ const Nav = () => {
         <ul className="navigation__list">
           <li className="navigation__item">
             <Link to="/decade60s" className="navigation__link">
-              60&#39;s
+              Decade 60&#39;s
             </Link>
           </li>
           <li className="navigation__item">
             <Link to="/decade70s" className="navigation__link">
-              70&#39;s
+              Decade 70&#39;s
             </Link>
           </li>
           <li className="navigation__item">
             <Link to="/decade80s" className="navigation__link">
-              80&#39;s
+              Decade 80&#39;s
             </Link>
           </li>
           <li className="navigation__item">
             <Link to="/decade90s" className="navigation__link">
-              90&#39;s
+              Decade 90&#39;s
             </Link>
           </li>
           <li className="navigation__item">
             <Link to="/decade00s" className="navigation__link">
-              00&#39;s
+              Decade 00&#39;s
             </Link>
           </li>
           <li className="navigation__item">
             <Link to="/decade10s" className="navigation__link">
-              10&#39;s
+              Decade 10&#39;s
             </Link>
           </li>
         </ul>
