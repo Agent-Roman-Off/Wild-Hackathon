@@ -1,4 +1,4 @@
-import DecadeDetails from 'Components/DecadeDetails/DecadeDetails';
+import DecadeDetails from '../DecadeDetails/DecadeDetails';
 
 const Decade80s = () => {
   return (
