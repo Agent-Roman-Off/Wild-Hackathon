@@ -1,4 +1,4 @@
-import DecadeDetails from 'Components/DecadeDetails/DecadeDetails';
+import DecadeDetails from '../DecadeDetails/DecadeDetails';
 import './Decade60s.scss';
 import decade60 from './60s';
 

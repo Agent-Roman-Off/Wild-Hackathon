@@ -1,6 +1,7 @@
 import DecadeDetails from 'Components/DecadeDetails/DecadeDetails';
 import decade00 from './00s';
 
+
 const Decade00s = () => {
   return (
     <section>

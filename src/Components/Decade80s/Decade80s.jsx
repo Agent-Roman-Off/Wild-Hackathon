@@ -1,6 +1,7 @@
 import DecadeDetails from 'Components/DecadeDetails/DecadeDetails';
 import decade80 from './80s';
 
+
 const Decade80s = () => {
   return (
     <section className="Section__decade">
