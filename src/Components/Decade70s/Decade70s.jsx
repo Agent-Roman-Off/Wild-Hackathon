@@ -1,9 +1,12 @@
-const Decade60s = () => {
+import DecadeDetails from 'Components/DecadeDetails/DecadeDetails';
+
+const Decade70s = () => {
   return (
-    <section>
-      <h1>Decade 60&#39;s</h1>
+    <section className="Section__decade">
+      <h1 className="Section__decade-title"> 🪕 Decade 70&#39;s</h1>
+      <DecadeDetails />
     </section>
   );
 };
 
-export default Decade60s;
+export default Decade70s;
