@@ -1,7 +1,7 @@
 .Parent {
   background: url('../../Assets/manche.png') no-repeat center cover;
-  height: 75vh;
-  width: 95%;
+  height: 70vh;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(11, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -23,9 +23,26 @@
 
   .glass{
     background: rgba(255, 255, 255, 0.138);
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4.5px ); 
-  -webkit-backdrop-filter: blur( 4.5px );
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.111);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px ); 
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.111);
+    padding:0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
+
+  .item-img{
+    height: 6rem;
+  }
+
+ .item-title{
+  font-size: 1rem 
+ }
+            
+.item-paragraph{
+  font-size: 0.75rem;
+}
