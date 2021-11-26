@@ -7,9 +7,10 @@ const DecadeDetails = ({ decade }) => {
       {decade.map((yr, idx) => {
         return (
           <div className={`div${idx + 1} glass`}>
-            <h3> Song : {yr.name}</h3>
-            <p>Artist: {yr.artist}</p>
-            <img src={yr.artwork} alt="artwork" />
+            <h3 className="item-title"> Song : {yr.name}</h3>
+            <p className="item-paragraph">Artist: {yr.artist}</p>
+            <p className="item-paragraph">Release: {yr.release}</p>
+            <img src={yr.artwork} alt="artwork" className="item-img" />
           </div>
         );
       })}
