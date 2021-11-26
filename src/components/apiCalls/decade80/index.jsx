@@ -1,21 +1,21 @@
 import { useState, useEffect } from 'react';
-import decade10 from './10s';
+import decade80 from './80s';
 
-function Decade10() {
+function Decade80() {
   const [tracks, setTracks] = useState([]);
   // const [songName, setSongName] = useState('');
   // const [songArtist, setSongArtist] = useState('');
   // const [songArtwork, setSongArtwork] = useState('');
 
   useEffect(() => {
-    //   axios.get(decade10).then(() => {
-    // setSongName(decade10.name);
-    // setSongArtist(decade10.artist);
-    // setSongArtwork(decade10.artwork);
-    setTracks(decade10);
+    //   axios.get(decade80).then(() => {
+    // setSongName(decade80.name);
+    // setSongArtist(decade80.artist);
+    // setSongArtwork(decade80.artwork);
+    setTracks(decade80);
     //   });
   }, []);
-  console.log(decade10.name);
+  console.log(decade80.name);
   return (
     <>
       {tracks.map((track) => {
@@ -32,4 +32,4 @@ function Decade10() {
     </>
   );
 }
-export default Decade10;
+export default Decade80;

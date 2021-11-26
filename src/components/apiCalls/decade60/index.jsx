@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import decade10 from './10s';
+import decade60 from './60s';
 
-function Decade10() {
+function Decade60() {
   const [tracks, setTracks] = useState([]);
   // const [songName, setSongName] = useState('');
   // const [songArtist, setSongArtist] = useState('');
@@ -12,10 +12,10 @@ function Decade10() {
     // setSongName(decade10.name);
     // setSongArtist(decade10.artist);
     // setSongArtwork(decade10.artwork);
-    setTracks(decade10);
+    setTracks(decade60);
     //   });
   }, []);
-  console.log(decade10.name);
+  console.log(decade60.name);
   return (
     <>
       {tracks.map((track) => {
@@ -32,4 +32,4 @@ function Decade10() {
     </>
   );
 }
-export default Decade10;
+export default Decade60;
