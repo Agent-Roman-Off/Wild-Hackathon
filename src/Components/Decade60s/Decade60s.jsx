@@ -1,4 +1,4 @@
-import DecadeDetails from 'Components/DecadeDetails/DecadeDetails';
+import DecadeDetails from '../DecadeDetails/DecadeDetails';
 import './Decade60s.scss';
 
 const Decade60s = () => {

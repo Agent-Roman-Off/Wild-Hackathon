@@ -1,14 +1,14 @@
-import 'App.scss';
-import Decade60s from 'Components/Decade60s/Decade60s';
-import Decade70s from 'Components/Decade70s/Decade70s';
-import Decade80s from 'Components/Decade80s/Decade80s';
-import Decade90s from 'Components/Decade90s/Decade90s';
-import Decade00s from 'Components/Decade00s/Decade00s';
-import Decade10s from 'Components/Decade10s/Decade10s';
-import DecadeDetails from 'Components/DecadeDetails/DecadeDetails';
-import Header from 'Components/Header/Header';
-import Home from 'Components/Home/Home';
+import './App.scss';
 import { Route, Switch } from 'react-router-dom';
+import Decade60s from './Components/Decade60s/Decade60s';
+import Decade70s from './Components/Decade70s/Decade70s';
+import Decade80s from './Components/Decade80s/Decade80s';
+import Decade90s from './Components/Decade90s/Decade90s';
+import Decade00s from './Components/Decade00s/Decade00s';
+import Decade10s from './Components/Decade10s/Decade10s';
+import DecadeDetails from './Components/DecadeDetails/DecadeDetails';
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
 
 function App() {
   return (
