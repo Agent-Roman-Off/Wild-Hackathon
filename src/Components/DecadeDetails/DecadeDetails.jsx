@@ -1,21 +1,24 @@
 import './DecadeDetails.scss';
+import PropTypes from 'prop-types';
 
-const DecadeDetails = () => {
+const DecadeDetails = ({ decade }) => {
   return (
     <div className="Parent">
-      <div className="div1 red" />
-      <div className="div2 red"> </div>
-      <div className="div3 red"> </div>
-      <div className="div4 red"> </div>
-      <div className="div5 red"> </div>
-      <div className="div6 red"> </div>
-      <div className="div7 red"> </div>
-      <div className="div8 red"> </div>
-      <div className="div9 red"> </div>
-      <div className="div10 red"> </div>
-      <div className="div11 red"> </div>
+      {decade.map((yr, idx) => {
+        return (
+          <div className={`div${idx + 1} glass`}>
+            <h3> Song : {yr.name}</h3>
+            <p>Artist: {yr.artist}</p>
+            <img src={yr.artwork} alt="artwork" />
+          </div>
+        );
+      })}
     </div>
   );
+};
+
+DecadeDetails.propTypes = {
+  decade: PropTypes.arrayOf().isRequired,
 };
 
 export default DecadeDetails;
