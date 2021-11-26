@@ -1,7 +1,10 @@
+import DecadeDetails from 'Components/DecadeDetails/DecadeDetails';
+
 const Decade80s = () => {
   return (
-    <section>
-      <h1>Decade 80&#39;s</h1>
+    <section className="Section__decade">
+      <h1 className="Section__decade-title"> 🪕 Decade 80&#39;s</h1>
+      <DecadeDetails />
     </section>
   );
 };
