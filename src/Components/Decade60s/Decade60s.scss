@@ -2,13 +2,12 @@ $color-white: #fff;
 
 .Section__decade {
   color: $color-white;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   align-items: center;
-  // justify-content: center;
   flex-direction: column;
   &-title {
     padding-bottom: 1.5rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
