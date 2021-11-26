@@ -1,0 +1,26 @@
+.Parent {
+  background: url('../../Assets/manche.png') no-repeat center cover;
+  height: 75vh;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div2 { grid-area: 2 / 2 / 3 / 3; }
+  .div3 { grid-area: 3 / 3 / 4 / 4; }
+  .div4 { grid-area: 2 / 4 / 3 / 5; }
+  .div5 { grid-area: 1 / 5 / 2 / 6; }
+  .div6 { grid-area: 2 / 6 / 3 / 7; }
+  .div7 { grid-area: 3 / 7 / 4 / 8; }
+  .div8 { grid-area: 2 / 8 / 3 / 9; }
+  .div9 { grid-area: 1 / 9 / 2 / 10; }
+  .div10 { grid-area: 2 / 10 / 3 / 11; }
+  .div11 { grid-area: 3 / 11 / 4 / 12; }
+
+  .red{
+    background: rgba(186, 0, 0, 0.25);
+  }
